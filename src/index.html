@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CRM</title>
+</head>
+<body>
+  <div class='container'>
+    <div class='header'>
+      <div class='header-title'>Товары</div>
+      <div class='header-button'>+</div>
+    </div>
+    <table class='products'>
+      <thead class='products-header'>
+        <tr>
+          <td class='product-title'>Название</td>
+          <td class='product-price'>Стоимость</td>
+          <td class='product-actions'>Действия</td>
+        </tr>
+      </thead>
+      <tbody id='products_list' class='products-list'>
+      </tbody>
+    </table>
+    <div class='edit-box'>
+      <form name='edit' class='edit' novalidate>
+        <div class='title'>
+          <p>Название</p>
+          <input type='text' id='input_title' class='edit-input' required>
+          <div class='tooltip'><span class='warning'></span> Заполните поле, пожалуйста.</div>
+        </div>
+        <div class='price'>
+          <p>Стоимость</p>
+          <input type='number' id='input_price' class='edit-input' min='1' required>
+          <div class='tooltip'><span class='warning'></span> Введите целое число больше нуля.</div>
+        </div>
+        <div class='buttons-box'>
+          <button type='submit' id='save_button' class='button'>Сохранить</button>
+          <button type='button' id='cancel_button' class='button'>Отмена</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
