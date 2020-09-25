@@ -1,6 +1,6 @@
-[Ссылка на проект]()
+[Ссылка на проект](https://ivansergeev1.github.io/ahj-form2/)
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/l6bim3v2feed5rsv?svg=true)](https://ci.appveyor.com/project/IvanSergeev1/ahj-form2)
 
 ### Редактор списка
 
